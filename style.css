@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  z-index: 1000000000;
+}
+
+/* .hero-section {
+  position: relative;
+} */
+.hero-text {
+  margin-top: 25%;
+  font-weight: 300;
+}
+
+#hero-name {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+.call-to-action {
+  margin-top: 18px;
+  background: white;
+  border: transparent;
+}
+
+#introduction {
+  margin-top: 160px;
+  background-color: #f4eee9;
+  height: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#projects {
+  padding-top: 160px;
+  background-color: #f8f8fa;
+  padding-bottom: 160px;
+}
+
+.card-space {
+  height: 400px;
+}
+
+.card-image {
+  background-color: #ebebed;
+  height: 300px;
+}
+
+#my-articles {
+  padding-top: 160px;
+}
+
+.my-articles-header {
+  text-align: center;
+}
+.inline-yellow-text {
+  color: rgb(177, 118, 8);
+}
+
+.article-list {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 136px;
+}
+
+.article-title {
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.hr {
+  height: 1px;
+}
