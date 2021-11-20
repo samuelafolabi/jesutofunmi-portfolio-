@@ -1,11 +1,37 @@
+@font-face {
+  font-family: graphik-bold;
+  src: url(Assets/Fonts/GraphikBold.otf);
+}
+
+@font-face {
+  font-family: graphik-regular;
+  src: url(Assets/Fonts/Graphiklight.otf);
+}
+
+@font-face {
+  font-family: graphik-light;
+  src: url(Assets/Fonts/GraphikExtralight.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+}
+.navbar-brand {
+  font-family: graphik-regular;
+  font-size: 1.1em;
+  color: rgba(49, 49, 49, 0.7);
+}
 .navbar {
   z-index: 1000000000;
+  font-family: graphik-regular;
+  font-size: 0.75em;
+  color: rgba(49, 49, 49, 0.7);
 }
 
 /* .hero-section {
@@ -13,18 +39,22 @@
 } */
 .hero-text {
   margin-top: 25%;
-  font-weight: 300;
+  font-family: graphik-light;
+  color: #5e6063;
+  line-height: 1.6em;
 }
 
 #hero-name {
   text-decoration: underline;
-  font-weight: lighter;
+  text-decoration-thickness: 5%;
 }
 
 .call-to-action {
   margin-top: 18px;
   background: white;
   border: transparent;
+  font-family: graphik-regular;
+  color: #444552;
 }
 
 #introduction {
@@ -32,7 +62,11 @@
   background-color: #f4eee9;
   height: 200px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  color: #5e6063;
+  font-family: graphik-regular;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 #projects {
@@ -50,6 +84,20 @@
   height: 300px;
 }
 
+.project-title {
+  font-family: graphik-bold;
+  font-size: 0.9em;
+  color: #444552;
+  margin-top: 10px;
+}
+
+.project-details {
+  font-family: graphik-regular;
+  font-size: 0.9em;
+  color: #5e6063;
+  margin-bottom: 60px;
+}
+
 #my-articles {
   padding-top: 160px;
 }
@@ -61,17 +109,117 @@
   color: rgb(177, 118, 8);
 }
 
+.article-section-header {
+  font-family: graphik-regular;
+  color: #5e6063;
+}
 .article-list {
   list-style: none;
   text-decoration: none;
-  margin-top: 136px;
+  margin-top: 72px;
+  font-family: graphik-regular;
+  color: #5e6063;
 }
 
 .article-title {
   margin-bottom: 48px;
   margin-top: 48px;
+  font-family: graphik-regular;
+  color: #5e6063;
 }
 
 .hr {
   height: 1px;
+}
+
+.go-to-substack {
+  text-align: right;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-family: graphik-regular;
+  color: #5e6063;
+}
+
+.get-in-touch {
+  text-align: center;
+  color: #f8f8fa;
+  font-family: graphik-regular;
+  font-size: 1.8em;
+}
+
+.get-in-touch-mail {
+  text-align: center;
+  color: #f8f8fa;
+  font-weight: 500;
+  font-family: graphik-bold;
+  font-size: 1.4em;
+}
+
+#footer {
+  background-color: #444552;
+  padding-top: 144px;
+  padding-bottom: 156px;
+}
+
+.icons-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Special Stylings for "Single Project Page - Page 2"  */
+
+.project-heading-1 {
+  font-weight: 600;
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
+.project-heading-2 {
+  margin-right: 50%;
+  margin-top: -12px;
+}
+
+.project-image-1 {
+  margin-top: 22px;
+  height: 400px;
+  background-color: #ebebed;
+  margin-bottom: 32px;
+}
+
+.article-space-1 {
+  height: 20px;
+}
+
+.subsection-title {
+  font-weight: 600;
+  margin-top: 56px;
+  margin-bottom: 20px;
+}
+.subsection-card-image {
+  background-color: #ebebed;
+  height: 400px;
+}
+
+.project-article-2 {
+  margin-bottom: 28px;
+}
+
+#pre-footer {
+  background-color: #ebebed;
+  padding-top: 80px;
+  padding-bottom: 82px;
+  margin-top: 100px;
+}
+
+.nextproject {
+  text-align: center;
+}
+.dro-health {
+  text-align: center;
+}
+
+.see-drohealth {
+  text-align: center;
 }
