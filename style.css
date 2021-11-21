@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: graphik-regular;
-  src: url(Assets/Fonts/Graphiklight.otf);
+  src: url(Assets/Fonts/GraphikRegular.otf);
 }
 
 @font-face {
@@ -25,13 +25,12 @@ body {
 .navbar-brand {
   font-family: graphik-regular;
   font-size: 1.1em;
-  color: rgba(49, 49, 49, 0.7);
 }
 .navbar {
   z-index: 1000000000;
   font-family: graphik-regular;
   font-size: 0.75em;
-  color: rgba(49, 49, 49, 0.7);
+  background-color: #ffffff;
 }
 
 /* .hero-section {
@@ -60,12 +59,11 @@ body {
 #introduction {
   margin-top: 160px;
   background-color: #f4eee9;
-  height: 200px;
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   color: #5e6063;
   font-family: graphik-regular;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -171,14 +169,20 @@ body {
 /* Special Stylings for "Single Project Page - Page 2"  */
 
 .project-heading-1 {
-  font-weight: 600;
   margin-top: 10%;
   margin-bottom: 0px;
+  font-family: graphik-bold;
+  font-size: 1.4em;
+  color: #444552;
 }
 
 .project-heading-2 {
   margin-right: 50%;
   margin-top: -12px;
+  font-family: graphik-regular;
+  font-size: 0.9em;
+  color: #5e6063;
+  /* letter-spacing: 5px; */
 }
 
 .project-image-1 {
@@ -193,17 +197,32 @@ body {
 }
 
 .subsection-title {
-  font-weight: 600;
   margin-top: 56px;
   margin-bottom: 20px;
+  font-family: graphik-bold;
+  font-size: 0.9em;
+  color: #444552;
+
+  /* letter-spacing: 5px; */
 }
 .subsection-card-image {
   background-color: #ebebed;
   height: 400px;
 }
 
+.project-article {
+  margin-bottom: 28px;
+  font-family: graphik-regular;
+  font-size: 0.9em;
+  color: #5e6063;
+  font-weight: lighter;
+}
+
 .project-article-2 {
   margin-bottom: 28px;
+  font-family: graphik-regular;
+  font-size: 0.9em;
+  color: #5e6063;
 }
 
 #pre-footer {
@@ -215,11 +234,21 @@ body {
 
 .nextproject {
   text-align: center;
+  color: #444552;
+  font-family: graphik-regular;
+  font-size: 0.6em;
+  letter-spacing: 1px;
 }
 .dro-health {
   text-align: center;
+  color: #444552;
+  font-family: graphik-bold;
+  font-size: 1.4em;
 }
 
 .see-drohealth {
   text-align: center;
+  color: #444552;
+  font-family: graphik-regular;
+  font-size: 0.8em;
 }
